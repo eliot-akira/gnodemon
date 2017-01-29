@@ -3,16 +3,15 @@
   "version": "0.0.1",
   "description": "nodemon with glob watch",
   "main": "index.js",
-  "engines": {
-    "node": ">=6.0.0"
-  },
   "bin": {
     "gnodemon": "bin/gnodemon"
+  },
+  "engines": {
+    "node": ">=6.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "license": "MIT",
   "dependencies": {
     "glob": "^7.1.1",
     "nodemon": "^1.11.0"
@@ -21,6 +20,8 @@
     "type": "git",
     "url": "git+https://github.com/eliot-akira/gnodemon.git"
   },
+  "author": "Eliot Akira",
+  "license": "MIT",
   "keywords": [
     "nodemon",
     "glob",
